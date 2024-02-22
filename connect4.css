@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gameBoard{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid black;
+    width: 650px;
+    background-color: rgb(235, 251, 5);
+}
+
+ul{
+    display: grid;
+    place-items: center;
+}
+
+ul p{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
+}
+
+ul:hover{
+    cursor: pointer;
+    background-color: rgb(80, 226, 43);
+}
+    
